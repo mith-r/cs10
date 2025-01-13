@@ -1,0 +1,4 @@
+I was unable to distinguish the original and encoded image. To my eyes, they looked exactly the same.
+I don't think that someone who intercepted the image would be able to tell that it is anything different from a normal image.
+
+If the image had a large portion that was black, a person may be able to see that the image is not purely black. Similarly, if a large portion was white, a person may be able to see a slight color shift. 
