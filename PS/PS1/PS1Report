@@ -1,0 +1,18 @@
+We have submitted the recolored image of Baker Berry Library. All of the regions are a uniform reddish color because our code amplifies the hues
+of the original image in the recolored image. Some of the small areas of baker berry are not recolored, similar to the professors. We decided to
+keep the original 50 pixel minimum for regions to be added to the arrayList of arrayLists. This makes sure that regions that are too small aren't
+added. We check the color of each pixel by taking the absolute value of red, blue, and green values individually. Only if all of them are within
+the 20 benchmark, are they added to the current Region arrayList.
+
+Our CamPaint code allows the user to set a target color using a mouse press can do one of 3 things:
+When the user presses the ‘w’ key, the program will display the unaltered video
+When the user presses the ‘r’ key, the program will highlight the color of all of the regions in the screen of 50+ pixels that roughly have the
+same color as the target color
+When the user presses the ‘p’ key, the program displays a blank white screen and begins “painting” the screen with the largest region of the target
+ color on the screen with a blue color.
+
+In terms of limitations, the lighting of the room you’re in while using this program has a major impact on its effectiveness, because shadows can
+have a major effect on colors, making the program unable to detect the uniform colors.
+
+
+
