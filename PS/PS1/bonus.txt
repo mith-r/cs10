@@ -1,0 +1,1 @@
+For our bonus, we have added the ability to change colors. 1-6 correlate with the colors of the rainbow. 7 is black and 8 is white. Spacebar also pauses and resumes the drawing.  
