@@ -1,0 +1,16 @@
+PS2 Writeup
+
+DotTreeGUI
+Upon completion of PointQuadtree and DotTree, we ran the given test cases and they worked. To confirm that our code
+worked, we created a third test case called test2() that can be called by pressing the key ‘2’. In this test case, we
+created 21 points in a symmetrical layout. After this test worked, we felt confident that our codes were working as
+intended.
+
+CollisionGUI
+After completing the CollisionGUI class, we initially thought that our code was working, but soon realized that some
+balls were turning red at unexpected times, even when they weren’t touching another ball. After a lot of debugging, we
+found out that this was being caused by an error in our recursive call in PointQuadtree that was using if statements
+instead of else if statements. This was due to our quadrant checking that used greater than and less than than cases.
+This resulted in duplicate insertions. We fixed this by switching the if statements to if else statements. After that,
+several minutes of testing with our eyes and devising intentional collisions confirmed that the updated code was working
+correctly.
