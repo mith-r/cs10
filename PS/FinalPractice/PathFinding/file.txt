@@ -1,0 +1,5 @@
+North Las Vegas | Henderson | 14
+Stockholm | Södertälje | 19
+Fayetteville | Springdale | 31
+Orlando | Tampa | 125
+Tallinn | Riga | 309
